@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
+    color: rgb(31, 31, 31);
+}
+
+#logo {
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+  
+.menu a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.text-center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.atention {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.introduction {
+    font-size: 18px;
+}
+
+.services {
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 2.5em;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+.card {
+    text-align: center;
+    width: 250px;
+    padding: 1em;
+}   
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.links{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.links a{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 0px 4px;
+}
+
+.footer img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer p {
+    display: inline-block;
+}
